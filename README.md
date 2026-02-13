@@ -4,11 +4,11 @@
 This project implements and compares 6 different machine learning classification models to predict credit card customer churn.
 
 ## Dataset Description
-- **Source**: Credit Card Churn Dataset [1]
-- **Size**: 10,000+ instances with 20+ features [1]
-- **Target Variable**: Attrition_Flag (Existing Customer vs Attrited Customer) [1]
+- **Source**: Credit Card Churn Dataset
+- **Size**: 10,000+ instances with 20+ features
+- **Target Variable**: Attrition_Flag (Existing Customer vs Attrited Customer)
 
-## Models Implemented [2]
+## Models Implemented
 1. Logistic Regression
 2. Decision Tree Classifier  
 3. K-Nearest Neighbor Classifier
@@ -16,7 +16,7 @@ This project implements and compares 6 different machine learning classification
 5. Random Forest (Ensemble)
 6. XGBoost (Ensemble)
 
-## Evaluation Metrics [2]
+## Evaluation Metrics
 - Accuracy
 - AUC Score  
 - Precision

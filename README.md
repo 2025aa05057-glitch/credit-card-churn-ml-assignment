@@ -28,5 +28,5 @@ This project implements and compares 6 different machine learning classification
 - README.md
 - app.py
 - requirements.txt
-- model
+- model/
 - model/2025AA05057_ML_Assngment2.ipynb

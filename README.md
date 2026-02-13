@@ -1,0 +1,27 @@
+# Credit Card Churn Prediction - ML Classification Models
+
+## Problem Statement
+This project implements and compares 6 different machine learning classification models to predict credit card customer churn.
+
+## Dataset Description
+- **Source**: Credit Card Churn Dataset [1]
+- **Size**: 10,000+ instances with 20+ features [1]
+- **Target Variable**: Attrition_Flag (Existing Customer vs Attrited Customer) [1]
+
+## Models Implemented [2]
+1. Logistic Regression
+2. Decision Tree Classifier  
+3. K-Nearest Neighbor Classifier
+4. Naive Bayes Classifier
+5. Random Forest (Ensemble)
+6. XGBoost (Ensemble)
+
+## Evaluation Metrics [2]
+- Accuracy
+- AUC Score  
+- Precision
+- Recall
+- F1 Score
+- Matthews Correlation Coefficient (MCC)
+
+## Repository Structure [2]

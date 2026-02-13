@@ -24,4 +24,9 @@ This project implements and compares 6 different machine learning classification
 - F1 Score
 - Matthews Correlation Coefficient (MCC)
 
-## Repository Structure [2]
+## Repository Structure
+- README.md
+- app.py
+- requirements.txt
+- model
+- model/2025AA05057_ML_Assngment2.ipynb

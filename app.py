@@ -313,7 +313,7 @@ else:
 
 # Instructions
 st.write("### Instructions")
-    st.write("""
+st.write("""
     **How to use this app:**
     
     1. **Select a Model:** Choose from 6 different ML models in the sidebar
@@ -328,4 +328,4 @@ st.write("### Instructions")
     - Same columns as the original Credit Card Churn dataset
     - Include 'Attrition_Flag' column for evaluation (optional)
     - Categorical columns will be automatically encoded
-    """)
+""")

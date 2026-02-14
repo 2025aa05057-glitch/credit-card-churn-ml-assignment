@@ -312,7 +312,7 @@ else:
     st.write("Model performance data not available. Please ensure model_performance.pkl is in the repository.")
 
 # Instructions
-with st.write("### Instructions")
+with st.expandable("### Instructions"):
     st.write("""
     **How to use this app:**
     

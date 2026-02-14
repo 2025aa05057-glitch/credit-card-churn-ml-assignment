@@ -31,6 +31,15 @@ All models are saved as pickle files and can process uploaded CSV data:
 | Random Forest | 0.846 | 0.5324 | 0.7157 | 0.846 | 0.7754 | 0 |
 | XGBoost | 0.84 | 0.5134 | 0.7415 | 0.84 | 0.7751 | 0.0033 |
 
+## Model Performance Observations
+| Model | Observations |
+|-------|--------------|
+| Logistic Regression | Good baseline performance with interpretable coefficients |
+| Decision Tree | Interpretable model but may overfit, good for feature importance |
+| KNN | Instance-based learning, performance depends on neighborhood size |
+| Naive Bayes | Fast and simple, assumes feature independence |
+| Random Forest | Ensemble method, usually robust and handles overfitting well |
+| XGBoost | Advanced ensemble method, often achieves highest performance |
 
 ## Features
 - **CSV Upload**: Upload customer data for churn prediction

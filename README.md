@@ -23,6 +23,7 @@ All models are saved as pickle files and can process uploaded CSV data:
 
 ## Models Performance
 | Model | Accuracy | AUC | Precision | Recall | F1 | MCC |
+|-------|----------|-----|-----------|--------|----|-----|
 | Logistic Regression | 0.846 | 0.5491 | 0.7157 | 0.846 | 0.7754 | 0 |
 | Decision Tree | 0.72 | 0.5158 | 0.747 | 0.72 | 0.7327 | 0.0289 |
 | KNN | 0.826 | 0.5081 | 0.7396 | 0.826 | 0.7726 | 0.0006 |

@@ -21,6 +21,11 @@ All models are saved as pickle files and can process uploaded CSV data:
 | Random Forest | random_forest_model.pkl | Ensemble of decision trees |
 | XGBoost | xgboost_model.pkl | Gradient boosting ensemble |
 
+## Models Performance
+| Model | Accuracy | AUC | Precision | Recall | F1 | MCC |
+|-------|----------|-----|-----------|--------|----|-----|
+| Logistic Regression | 0.8500 | 0.8200 | 0.8400 | 0.8500 | 0.8400 | 0.6500 |
+
 ## Features
 - **CSV Upload**: Upload customer data for churn prediction
 - **Model Selection**: Choose from 6 different ML models

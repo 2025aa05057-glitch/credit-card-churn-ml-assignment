@@ -23,8 +23,13 @@ All models are saved as pickle files and can process uploaded CSV data:
 
 ## Models Performance
 | Model | Accuracy | AUC | Precision | Recall | F1 | MCC |
-|-------|----------|-----|-----------|--------|----|-----|
-| Logistic Regression | 0.8500 | 0.8200 | 0.8400 | 0.8500 | 0.8400 | 0.6500 |
+| Logistic Regression | 0.846 | 0.5491 | 0.7157 | 0.846 | 0.7754 | 0 |
+| Decision Tree | 0.72 | 0.5158 | 0.747 | 0.72 | 0.7327 | 0.0289 |
+| KNN | 0.826 | 0.5081 | 0.7396 | 0.826 | 0.7726 | 0.0006 |
+| Naive Bayes | 0.846 | 0.5466 | 0.7157 | 0.846 | 0.7754 | 0 |
+| Random Forest | 0.846 | 0.5324 | 0.7157 | 0.846 | 0.7754 | 0 |
+| XGBoost | 0.84 | 0.5134 | 0.7415 | 0.84 | 0.7751 | 0.0033 |
+
 
 ## Features
 - **CSV Upload**: Upload customer data for churn prediction

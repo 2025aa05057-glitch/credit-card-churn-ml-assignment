@@ -42,10 +42,11 @@ All models are saved as pickle files and can process uploaded CSV data:
 - decision_tree_model.pkl
 - knn_model.pkl
 - logistic_regression_model.pkl
+- model_performance.pkl
 - naive_bayes_model.pkl
 - preprocessing_components.pkl
 - random_forest_model.pkl
 - xgboost_model.pkl
 - model/
-- model/model_performance.pkl
+
 - model/2025AA05057_ML_Assignment_2.ipynb

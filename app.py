@@ -255,6 +255,23 @@ if uploaded_file is not None:
         st.error(f"Error processing file: {str(e)}")
         st.write("Please ensure your CSV file has the same structure as the training data.")
 
+# Download sample file
+@st.cache_data
+def load_sample_data():
+    # Load CSV file from your repo
+    df = pd.read_csv('model/Sample_Credit_Card_Churn.csv')  # File in your repo
+    return df
+
+# Create download button for existing CSV
+df = load_sample_data()
+csv_data = df.to_csv(index=False)
+
+st.download_button(
+    label="Download Sample Dataset",
+    data=csv_data,
+    file_name='model/Sample_Credit_Card_Churn.csv',
+    mime='text/csv'
+)
 # Model Comparison Section
 st.write("## 📊 Model Performance Comparison")
 
